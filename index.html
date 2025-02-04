@@ -1,0 +1,450 @@
+<!DOCTYPE html>
+<html lang="tr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Moony Bags - Hayalinizdeki Çanta</title>
+    <!-- css cdn link -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH"
+      crossorigin="anonymous"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css"
+    />
+    <!-- external css link -->
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body class="d-flex flex-column h-100">
+    <main class="flex-shrink-0">
+      <!-- Navbar section -->
+      <nav class="navbar navbar-expand-lg bg_color fixed-top">
+        <div class="container">
+          <a href="index.html" class="navbar-brand brand_design">Moony Bags</a>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarNav"
+            aria-controls="navbarNav"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ms-auto">
+              <li class="nav-item">
+                <a href="#page_top" class="nav-link fs-5" aria-current="page"
+                  >Anasayfa</a
+                >
+              </li>
+              <li class="nav-item">
+                <a href="about.html" class="nav-link fs-5" aria-current="page"
+                  >Hakkımızda</a
+                >
+              </li>
+              <li class="nav-item">
+                <a href="contact.html" class="nav-link fs-5" aria-current="page"
+                  >İletişim</a
+                >
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+      <!-- Header section tamam-->
+      <header class="bg-dark py-5 margin_top header_bg_design" id="page_top">
+        <div class="container px-5">
+          <div class="row gx-5 align-items-center justify-content-center">
+            <div class="col-lg-8 col-xl-7 col-xxl-6">
+              <div class="my-5 text-center text-lg-start">
+                <h1
+                  class="text-white display-5 fw-bolder mb-2 brand_animation"
+                  style="font-family: cursive; font-style: italic"
+                >
+                  Moony Bags
+                </h1>
+                <p class="text-white fw-normal lead mb-4">
+                  Hayalindeki çanta, hayalindeki marka ile buluşuyor.
+                </p>
+                <div
+                  class="d-grid gap-3 d-sm-flex justify-content-sm-center justify-content-lg-start"
+                >
+                  <a
+                    class="btn btn-primary btn-lg px-4 me-sm-3"
+                    href="#product_overview"
+                    >Yeni Sezon Ürünlerimiz</a
+                  >
+                  <a
+                    class="btn btn-outline-light btn-lg px-4 me-sm-3"
+                    href="about.html"
+                    >Hakkımızda</a
+                  >
+                </div>
+              </div>
+            </div>
+            <div class="col-xl-5 col-xxl-6 d-none d-lg-block text-center">
+              <img
+                class="img-fluid rounded-3 my-5"
+                style="width: 100%; height: 400px; object-fit: cover"
+                src="./img/9dfeb8fe-f955-42cb-b887-18055bb8d735.jpg"
+                alt="kedili_resim"
+              />
+            </div>
+          </div>
+        </div>
+      </header>
+      <!-- Feature section tamam-->
+      <section class="py-5 bg_color" id="features">
+        <div class="container px-5 my-5" id="#features">
+          <div class="row gx-5">
+            <div class="col-lg-4 mb-5 mb-lg-0">
+              <h2 class="fw-bolder mb-0">
+                Sizin için tasarlandı: Pratik Çözümler
+              </h2>
+            </div>
+            <div class="col-lg-8">
+              <div class="row gx-5 row-cols-1 row-cols-md-2">
+                <div class="col mb-5 h-100">
+                  <div
+                    class="feature bg-primary bg-gradient text-white rounded-3 mb-3 feature_icon"
+                  >
+                    <i class="bi fs-4 bi-pencil-fill"> </i>
+                  </div>
+                  <h2 class="h5">Tasarım</h2>
+                  <p class="mb-0">
+                    Özel tasarım isteklerinizi ekibimiz ile birebir görüşüp
+                    hayalinizdeki çantaya sahip olabilirsiniz.
+                  </p>
+                </div>
+                <div class="col mb-5 h-100">
+                  <div
+                    class="feature bg-primary bg-gradient text-white rounded-3 mb-3 feature_icon"
+                  >
+                    <i class="bi fs-4 bi-droplet"> </i>
+                  </div>
+                  <h2 class="h5">Hijyen</h2>
+                  <p class="mb-0">
+                    Ürünlerimiz özel tasarım tam izole poşet içerisinde,
+                    kullanılmamış şekilde size ulaşır.
+                  </p>
+                </div>
+                <div class="col mb-5 h-100">
+                  <div
+                    class="feature bg-primary bg-gradient text-white rounded-3 mb-3 feature_icon"
+                  >
+                    <i class="bi fs-4 bi-arrow-repeat"> </i>
+                  </div>
+                  <h2 class="h5">İade & Değişim</h2>
+                  <p class="mb-0">
+                    Özel tasarım poşeti açmadığınız sürece çantayı 14 gün
+                    içerisinde iade edebilirsiniz.
+                  </p>
+                </div>
+                <div class="col mb-5 h-100">
+                  <div
+                    class="feature bg-primary bg-gradient text-white rounded-3 mb-3 feature_icon"
+                  >
+                    <i class="bi fs-4 bi-truck"> </i>
+                  </div>
+                  <h2 class="h5">Kargo</h2>
+                  <p class="mb-0">
+                    Türkiye'nin en hızlı ve güvenilir kargo firmasıyla en kısa
+                    sürede, güvenli bir şekilde teslimat yapıyoruz.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- Testimonial section -->
+      <div class="py-5 testimonial_bg_color">
+        <div class="container px-5 my-5">
+          <div class="row gx-5 justify-content-center">
+            <div class="col-lg-10 col-xl-7">
+              <div class="text-center">
+                <div class="fs-4 mb-4 fst-italic">
+                  " Kulak tüylerimin rengine uyumlu bir tasarım yapılmasını
+                  istedim. Ekip çok profesyonel bir şekilde benimle görüntülü
+                  olarak birebir görüştü ve hayalimdeki çantayı hayata geçirdi.
+                  Kendilerine çok teşekkür ediyorum."
+                </div>
+                <div class="d-flex align-items-center justify-content-center">
+                  <img
+                    class="rounded-circle me-3 img-fluid"
+                    style="width: 40px"
+                    src="./img/odiprofil.JPG"
+                    alt="odi_profile_picture"
+                  />
+                  <div class="fw-bold">
+                    " Odi Tarçın "
+
+                    <span class="fw-bold text-primary mx-1"> / </span>
+                    " Yeni Müşterimiz "
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- Blog preview section -->
+      <section class="py-5 bg_color" id="product_overview">
+        <div class="container px-5 my-5">
+          <div class="row gx-5 justify-content-center">
+            <div class="col-lg-8 col-xl-6">
+              <div class="text-center">
+                <h2 class="fw-bolder">En çok satanlar</h2>
+                <p class="lead fw-normal text-muted mb-5">
+                  Sizin için bu ay en çok satan ürünlerimizi özetledik. Daha
+                  detaylı incelemek için tıklayınız!
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="row gx-5">
+            <div class="col-lg-4 mb-5">
+              <div class="card h-100 shadow border-0">
+                <img
+                  class="card-img-top"
+                  src="./img/bf23eab1-c85a-4a7b-bc95-09665e7f4559.jpg"
+                  alt="hasır_canta"
+                />
+                <div class="card-body p-4">
+                  <div class="badge bg-primary bg-gradient rounded-pill mb-2">
+                    Yeni Sezon
+                  </div>
+                  <a
+                    class="text-decoration-none link-dark stretched-link"
+                    href="#!"
+                  >
+                    <h5 class="card-title mb-3">Şerit V Desenli Hasır Çanta</h5>
+                  </a>
+                  <p class="card-text mb-0">
+                    Hasır ip ile örülmüştür. Deri motifli çanta sapında renkli
+                    boncuklu ve püsküllü dekoratif malzeme kullanılmıştır.
+                  </p>
+                </div>
+                <div class="card-footer p-4 pt-0 bg-transparent border-top-0">
+                  <div
+                    class="d-flex align-items-center justify-content-between"
+                  >
+                    <div class="d-flex align-items-center">
+                      <img
+                        class="rounded-circle me-3"
+                        src="./img/hasir_desen.jpg"
+                        style="width: 40px"
+                        alt="hasir_desen"
+                      />
+                      <div class="small">
+                        <div class="fw-bold">Hasır İplik</div>
+                        <a class="text-muted">
+                          Materyal çeşitleri için tıklayınız
+                        </a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-4 mb-5">
+              <div class="card h-100 shadow border-0">
+                <img
+                  class="card-img-top"
+                  src="./img/1084e67e-ce77-4af0-9f12-62d4e2b185a1.jpg"
+                  alt="decagon_canta"
+                />
+                <div class="card-body p-4">
+                  <div class="badge bg-primary bg-gradient rounded-pill mb-2">
+                    Yeni Sezon
+                  </div>
+                  <a
+                    class="text-decoration-none link-dark stretched-link"
+                    href="#!"
+                  >
+                    <h5 class="card-title mb-3">Dekagon Örgü Çanta</h5>
+                  </a>
+                  <p class="card-text mb-0">
+                    Decagon yüzey tasarımlı şık dairesel örgü çanta. Siyah deri
+                    motifli çanta sapında renkli boncuklu ve püsküllü dekoratif
+                    malzeme kullanılmıştır.
+                  </p>
+                </div>
+                <div class="card-footer p-4 pt-0 bg-transparent border-top-0">
+                  <div
+                    class="d-flex align-items-center justify-content-between"
+                  >
+                    <div class="d-flex align-items-center">
+                      <img
+                        class="rounded-circle me-3"
+                        src="./img/pamuk_orgu.jpg"
+                        style="width: 40px"
+                        alt="pamuk_orgu"
+                      />
+                      <div class="small">
+                        <div class="fw-bold">Pamuk İplik</div>
+                        <a class="text-muted">
+                          Materyal çeşitleri için tıklayınız
+                        </a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-4 mb-5">
+              <div class="card h-100 shadow border-0">
+                <img
+                  class="card-img-top"
+                  src="./img/f283542a-5a1a-4dc0-bf2d-49f9b4fb36c7.jpg"
+                  alt="hasır_canta"
+                />
+                <div class="card-body p-4">
+                  <div class="badge bg-primary bg-gradient rounded-pill mb-2">
+                    Yeni Sezon
+                  </div>
+                  <a
+                    class="text-decoration-none link-dark stretched-link"
+                    href="#!"
+                  >
+                    <h5 class="card-title mb-3">Elit Kapaklı Çanta</h5>
+                  </a>
+                  <p class="card-text mb-0">
+                    Naylon renkli ip ile örülmüştür. Kaplan motifli çanta sapı
+                    ve altın renkli kilit çıtçıt ile dekore edilmiştir.
+                  </p>
+                </div>
+                <div class="card-footer p-4 pt-0 bg-transparent border-top-0">
+                  <div
+                    class="d-flex align-items-center justify-content-between"
+                  >
+                    <div class="d-flex align-items-center">
+                      <img
+                        class="rounded-circle me-3"
+                        src="./img/naylon_orgu.jpg"
+                        style="width: 40px"
+                        alt="naylon_orgu"
+                      />
+                      <div class="small">
+                        <div class="fw-bold">Naylon İplik</div>
+                        <a class="text-muted">
+                          Materyal çeşitleri için tıklayınız
+                        </a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <aside
+            class="newsletter_bg_color bg-gradient rounded-3 p-4 p-sm-5 mt-5"
+          >
+            <div
+              class="d-flex align-items-center justify-content-between flex-column flex-xl-row text-center text-xl-start"
+            >
+              <div class="mb-4 mb-xl-0">
+                <div class="fs-3 fw-bold text-white">
+                  Bizi takip edebilirsiniz.
+                </div>
+                <div class="text-black-50">
+                  En yeni tasarımlarımızdan haberdar olabilmek için haber
+                  bültenimize abone olun veya sosyal medya hesaplarımızı takip
+                  edin.
+                </div>
+              </div>
+              <div class="mb-3 mb-xl-auto">
+                <button
+                  class="btn btn-outline-light btn-dark"
+                  style="
+                    --bs-btn-padding-y: 0.06rem;
+                    --bs-btn-padding-x: 0.5rem;
+                  "
+                  type="button"
+                >
+                  <i class="bi bi-instagram fs-4"></i>
+                </button>
+              </div>
+              <form id="newsletter_form" action="https://script.google.com/macros/s/AKfycbwrOctz8qsENnuYfRNUPp2lw_WFW9KW88mMW9d7uSC8OfvDlX93vHuWEAmhf3NH5gk/exec" method="post">
+              <div class="ms-xl-4">
+                <div class="input-group mb-2">
+                  <input
+                    class="form-control"
+                    type="email"
+                    name="newsletter_subs"
+                    placeholder="E-posta adresiniz..."
+                    aria-label="E-posta adresiniz..."
+                    aria-describedby="button-newsletter"
+                    required
+                  />
+                  <input type="hidden" id="date_time" name="date_time" />
+                  <button
+                    class="btn btn-outline-light text-black-50"
+                    id="button-newsletter"
+                    type="submit"
+                  >
+                    Abone ol!
+                  </button>
+                </div>
+              </form>
+                <div class="small text-black-50">
+                  E-posta adresiniz güvenli bir şekilde saklanacak ve başka kişi
+                  ve taraflar ile paylaşılmayacaktır.
+                </div>
+              </div>
+            </div>
+          </aside>
+        </div>
+      </section>
+    </main>
+    <!-- Footer section with 2 segments -->
+    <footer class="bg-dark py-4 mt-auto">
+      <div class="container px-5">
+        <div
+          class="row align-items-center justify-content-between flex-column flex-sm-row"
+        >
+          <div class="col-auto">
+            <div class="small m-0 text-white">
+              Copyright &copy; Ertannur Atabay 2025
+            </div>
+          </div>
+          <div class="col-auto">
+            <a class="link-light small" href="#!">Gizlilik Politikası</a>
+            <span class="text-white mx-1">·</span>
+            <a class="link-light small" href="#!">Kullanım Şartları</a>
+            <span class="text-white mx-1">·</span>
+            <a class="link-light small" href="#!">İletişim</a>
+          </div>
+        </div>
+      </div>
+    </footer>
+    <!-- Hidden date and time post -->
+    <script>
+      // Formu ve hidden input'ı seçme
+      const form = document.getElementById("newsletter_form");
+      const dateTimeInput = document.getElementById("date_time");
+
+      // Güncel tarih ve saati alıp uygun formatta biçimlendirme
+      const now = new Date();
+      const date_time = now.toLocaleString(); // Örn: 23.03.2024 14:30:23
+
+      // Hidden input'a değer atama
+      dateTimeInput.value = date_time;
+
+      // Form gönderildiğinde tetiklenecek olay (isteğe bağlı)
+      form.addEventListener("submit", (event) => {
+        // Form gönderilmeden önce yapılacak işlemler (örneğin, verileri doğrulama)
+      });
+    </script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>

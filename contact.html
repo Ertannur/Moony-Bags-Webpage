@@ -1,0 +1,243 @@
+<!DOCTYPE html>
+<html lang="tr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=, initial-scale=1.0" />
+    <title>Bizimle iletişime geç!</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH"
+      crossorigin="anonymous"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css"
+    />
+    <!-- external css link -->
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body class="d-flex flex-column h-100 font" id="page-top">
+    <main class="flex-shrink-0">
+      <!-- Navbar section -->
+      <nav class="navbar navbar-expand-lg bg_color fixed-top">
+        <div class="container">
+          <a href="index.html" class="navbar-brand brand_design">Moony Bags</a>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarNav"
+            aria-controls="navbarNav"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ms-auto">
+              <li class="nav-item">
+                <a href="index.html" class="nav-link fs-5" aria-current="page"
+                  >Anasayfa</a
+                >
+              </li>
+              <li class="nav-item">
+                <a href="about.html" class="nav-link fs-5" aria-current="page"
+                  >Hakkımızda</a
+                >
+              </li>
+              <li class="nav-item">
+                <a href="contact.html" class="nav-link fs-5" aria-current="page"
+                  >İletişim</a
+                >
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+      <!-- Page content -->
+      <section class="py-5 margin_top">
+        <div class="container px-5 py-5">
+          <!-- Contact form-->
+          <div class="testimonial_bg_color rounded-3 py-5 px-4 px-md-5 mb-5">
+            <div class="text-center mb-5">
+              <div
+                class="feature bg-primary bg-gradient text-white rounded-3 ms-auto me-auto mb-3 feature_icon"
+              >
+                <i class="bi fs-4 bi-envelope"></i>
+              </div>
+              <h1 class="fw-bolder">Bizimle iletişime geçiniz</h1>
+              <p class="lead fw-normal text-muted mb-0">
+                Bize olan mesajınızı buradan gönderebilirsiniz
+              </p>
+            </div>
+            <div class="row gx-5 justify-content-center">
+              <div class="col-lg-8 col-xl-6">
+                <form
+                  id="newsletter_form"
+                  action="https://script.google.com/macros/s/AKfycbwrOctz8qsENnuYfRNUPp2lw_WFW9KW88mMW9d7uSC8OfvDlX93vHuWEAmhf3NH5gk/exec"
+                  method="post"
+                >
+                  <!-- Name input-->
+                  <div class="form-floating mb-3">
+                    <input
+                      class="form-control"
+                      id="name"
+                      type="text"
+                      name="name"
+                      required
+                    />
+                    <label for="name">Adınız ve soyadınız</label>
+                  </div>
+                  <!-- Email address input-->
+                  <div class="form-floating mb-3">
+                    <input
+                      class="form-control"
+                      id="email"
+                      type="email"
+                      name="email"
+                      required
+                    />
+                    <label for="email">E-posta adresiniz</label>
+                  </div>
+                  <!-- Phone number input-->
+                  <div class="form-floating mb-3">
+                    <input
+                      class="form-control"
+                      id="phone"
+                      type="tel"
+                      name="tel"
+                      required
+                    />
+                    <label for="phone">Telefon numaranız</label>
+                  </div>
+                  <!-- Message input-->
+                  <div class="form-floating mb-3">
+                    <textarea
+                      class="form-control"
+                      id="message"
+                      type="text"
+                      style="height: 10rem"
+                      name="message"
+                      required
+                    ></textarea>
+                    <label for="message">Mesajınız</label>
+                    <div
+                      class="invalid-feedback"
+                      data-sb-feedback="message:required"
+                    >
+                      Mesaj yazmalısınız.
+                    </div>
+                  </div>
+                  <input type="hidden" id="date_time" name="date_time" />
+                  <!-- Submit Button-->
+                  <div class="d-grid">
+                    <button
+                      class="btn btn-primary btn-lg"
+                      id="submitButton"
+                      type="submit"
+                    >
+                      Gönder
+                    </button>
+                  </div>
+                </form>
+              </div>
+            </div>
+          </div>
+          <!-- Contact cards-->
+          <div class="row gx-5 row-cols-2 row-cols-lg-4 py-5">
+            <div class="col">
+              <div
+                class="feature bg-primary bg-gradient text-white rounded-3 mb-3 feature_icon"
+              >
+                <i class="bi fs-4 bi-chat-dots"></i>
+              </div>
+              <div class="h5 mb-2">Whatsapp</div>
+              <p class="text-muted mb-0">
+                Whatsapp üzerinden canlı desteğe bağlanabilirsiniz.
+              </p>
+            </div>
+            <div class="col">
+              <div
+                class="feature bg-primary bg-gradient text-white rounded-3 mb-3 feature_icon"
+              >
+                <i class="bi fs-4 bi-people"></i>
+              </div>
+              <div class="h5">Mesaj</div>
+              <p class="text-muted mb-0">
+                Mesaj kutusu üzerinden bize ulaşabilirsiniz.
+              </p>
+            </div>
+            <div class="col">
+              <div
+                class="feature bg-primary bg-gradient text-white rounded-3 mb-3 feature_icon"
+              >
+                <i class="bi fs-4 bi-telephone"></i>
+              </div>
+              <div class="h5">Destek hattı</div>
+              <p class="text-muted mb-0">
+                Telefon destek hattımız üzerinden bize ulaşabilirsiniz.
+              </p>
+            </div>
+            <div class="col">
+              <div
+                class="feature bg-primary bg-gradient text-white rounded-3 mb-3 feature_icon"
+              >
+                <i class="bi fs-4 bi-question-circle"></i>
+              </div>
+              <div class="h5">Forum</div>
+              <p class="text-muted mb-0">
+                Forumumuzda yer alan sıkça sorulan sorular bölümünden konuları
+                inceleyebilirsiniz.
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+    <!-- Footer section with 2 segments -->
+    <footer class="bg-dark py-4 mt-auto">
+      <div class="container px-5">
+        <div
+          class="row align-items-center justify-content-between flex-column flex-sm-row"
+        >
+          <div class="col-auto">
+            <div class="small m-0 text-white">
+              Copyright &copy; Ertannur Atabay 2025
+            </div>
+          </div>
+          <div class="col-auto">
+            <a class="link-light small" href="#!">Gizlilik Politikası</a>
+            <span class="text-white mx-1">·</span>
+            <a class="link-light small" href="#!">Kullanım Şartları</a>
+            <span class="text-white mx-1">·</span>
+            <a class="link-light small" href="#!">İletişim</a>
+          </div>
+        </div>
+      </div>
+    </footer>
+<!-- Hidden date and time post -->
+    <script>
+      // Formu ve hidden input'ı seçme
+      const form = document.getElementById("newsletter_form");
+      const dateTimeInput = document.getElementById("date_time");
+
+      // Güncel tarih ve saati alıp uygun formatta biçimlendirme
+      const now = new Date();
+      const date_time = now.toLocaleString(); // Örn: 23.03.2024 14:30:23
+
+      // Hidden input'a değer atama
+      dateTimeInput.value = date_time;
+
+      // Form gönderildiğinde tetiklenecek olay (isteğe bağlı)
+      form.addEventListener("submit", (event) => {
+        // Form gönderilmeden önce yapılacak işlemler (örneğin, verileri doğrulama)
+      });
+    </script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>

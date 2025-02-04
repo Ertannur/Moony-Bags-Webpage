@@ -1,0 +1,46 @@
+.feature_icon {
+    width: 3rem;
+    height: 3rem;
+    align-content: center;
+    text-align: center;
+    
+
+}
+.bi-collection {
+    color: white;
+    font-size: x-large;
+}
+.header_bg_design {
+    background-image: url("./img/seamless-pattern-with-beige-wool-knit-for-website-background-wallpaper-card-webpage-backdrop-winter-design-knitted-texture-of-cream-colored-woolen-fabric-vector.jpg");
+    
+}
+.bg_color {
+    background-color: white;
+}
+
+.brand_design {
+    font-size: 3rem;
+    font-style: italic;
+    font-family: cursive;
+}
+.brand_animation {
+    font-size: 4rem;
+    animation: move 5s infinite ease-in-out alternate;
+}
+@keyframes move {
+    from {
+      transform: translateX(-10%);
+    }
+    to {
+      transform: translateX(16%);
+    }
+  }
+.testimonial_bg_color {
+    background-color: #e7c1b3;
+}
+.newsletter_bg_color {
+    background-color: #e7c1b3;
+}
+.margin_top {
+    margin-top: 4rem;
+}
